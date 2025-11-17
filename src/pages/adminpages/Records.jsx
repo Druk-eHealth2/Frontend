@@ -17,7 +17,7 @@ export default function Records({ darkMode }) {
   // ================================
   const fastAPI =
     import.meta.env.VITE_FASTAPI_URL ||
-    "https://fastapi-backend-yrc0.onrender.com";
+    "https://druk-ehealth-backend.onrender.com";
 
   // -----------------------------
   // Fetch records (only ones with image + features)
