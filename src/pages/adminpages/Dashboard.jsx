@@ -32,8 +32,8 @@ import "./css/dashboard.css";
 // =====================================
 //  🚀 API CONFIG — CHANGE THESE
 // =====================================
-const NODE_API = "https://backend-drukhealth.onrender.com/api";
-const FASTAPI_URL = "https://fastapi-backend-yrc0.onrender.com"; 
+const NODE_API = "https://nodebackend-a8hg.onrender.com";
+const FASTAPI_URL = "https://druk-ehealth-backend.onrender.com"; 
 // 👉 Replace with your actual FASTAPI URL
 
 export default function Dashboard() {
