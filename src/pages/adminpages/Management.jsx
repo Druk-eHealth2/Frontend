@@ -15,7 +15,7 @@ export default function Management() {
   // ===============================
   // 🚀 DEPLOYED BACKEND URL (Node.js)
   // ===============================
-  const API_BASE_URL = "https://druk-ehealth-backend.onrender.com/api/manage";
+  const API_BASE_URL = "https://fastapi-2-4sva.onrender.com/api/manage";
 
   useEffect(() => {
     fetchAdmins();
