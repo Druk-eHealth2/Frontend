@@ -23,7 +23,7 @@ export default function CTGScan() {
 
   const FASTAPI_API =
     import.meta.env.VITE_FASTAPI_BACKEND ||
-    "https://druk-ehealth-backend.onrender.com";
+    "https://fastapi-2-4sva.onrender.com";
 
   useEffect(() => {
     document.body.style.backgroundColor = darkMode ? "#121212" : "#FFFFFF";
