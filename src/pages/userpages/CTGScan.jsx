@@ -19,11 +19,11 @@ export default function CTGScan() {
   // ============================
   const NODE_API =
     import.meta.env.VITE_NODE_BACKEND ||
-    "https://backend-drukhealth.onrender.com/api";
+    "https://nodebackend-a8hg.onrender.com";
 
   const FASTAPI_API =
     import.meta.env.VITE_FASTAPI_BACKEND ||
-    "https://fastapi-backend-yrc0.onrender.com";
+    "https://druk-ehealth-backend.onrender.com";
 
   useEffect(() => {
     document.body.style.backgroundColor = darkMode ? "#121212" : "#FFFFFF";
