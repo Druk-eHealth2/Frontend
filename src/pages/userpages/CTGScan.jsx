@@ -19,7 +19,7 @@ export default function CTGScan() {
   // ============================
   const NODE_API =
     import.meta.env.VITE_NODE_BACKEND ||
-    "https://nodebackend-a8hg.onrender.com";
+    "https://nodebackend-a8hg.onrender.com/api";
 
   const FASTAPI_API =
     import.meta.env.VITE_FASTAPI_BACKEND ||
